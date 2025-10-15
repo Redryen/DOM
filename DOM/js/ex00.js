@@ -27,7 +27,7 @@
       
       else{
         r = parseFloat(v1) - parseFloat(v2)
-        document.getElementById("resultado").innerHTML = `O resultado da subtração é: ${r}`
+        document.getElementById("resultsubtrair").innerHTML = `O resultado da subtração é: ${r}`
 
       }
     }
@@ -44,7 +44,7 @@
 
       else{
         r = parseFloat(v1) * parseFloat(v2)
-        document.getElementById("resultado").innerHTML = `O resultado da multiplicação é: ${r}`
+        document.getElementById("resultmultiplicar").innerHTML = `O resultado da multiplicação é: ${r}`
 
       }
     }
@@ -65,7 +65,7 @@
 
         else{   
             r = parseFloat(v1) / parseFloat(v2)
-            document.getElementById("resultado").innerHTML = `O resultado da divisão é: ${r}`
+            document.getElementById("resultdividir").innerHTML = `O resultado da divisão é: ${r}`
         }
     }
 
