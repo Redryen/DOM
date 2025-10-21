@@ -19,7 +19,7 @@ function validar(){
 
     else if(s == sc || l == lc){
         alert("Cadastro realizado com sucesso!")
-        document.getElementById("menssagem").innerHTML = `Cadastro:<br>Login: ${l}<br>Senha: ${s}`
+        document.getElementById("menssagem").innerHTML = `Cadastro:Login: ${l}  Senha: ${s}`
     }
 
 }
