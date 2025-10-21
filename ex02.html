@@ -1,30 +1,30 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PESO</title>
-    <script type="text/javascript" src="js/ex002.js"></script>
-    <script type="text/javascript" src="css/ex02.css"></script>
+
+    <script type="text/javascript" src="js/ex002.js" defer></script>
+    <link rel="stylesheet" href="css/ex02.css">
+    
 </head>
 <body>
-    <h1>Conversor de Peso para Quilo</h1>
-    
 
-    <p>
-        <label for="valorPeso">Digite o valor do peso: </label> <br>
-        <input type="text" id = "valorPeso"><br><br>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <p>Informe seu peso e altura para calcular o Índice de Massa Corporal (IMC).</p>
 
-        <label for="valorAltura">Digite o valor da altura: </label> <br>
-        <input type="text" id = "valorAltura"><br><br>
+        <label for="valorPeso">Digite o valor do peso (kg):</label>
+        <input type="text" id="valorPeso" placeholder="Ex: 70">
+
+        <label for="valorAltura">Digite o valor da altura (m):</label>
+        <input type="text" id="valorAltura" placeholder="Ex: 1.75">
 
         <input type="button" id="btnImc" value="Calcular IMC" onclick="calcularIMC()">
 
         <div id="resultadoIMC"></div>
-        
+    </div>
 
-
-    </p>
 </body>
 </html>

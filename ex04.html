@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA</title>
+    <script type="text/javascript" src="js/ex04.js"></script>
+    <link rel="stylesheet" href="css/ex04.css">
+
+</head>
+<body>
+    
+    <h1>PA</h1>
+    <p>Crie um novo documento HTML em que o usuário entre com o primeiro valor de uma Progressão Aritmética (PA) a razão da PA e a quantidade de termos da PA e gere a serie. Dica: use uma lista para armazenar a PA e exibir em tela.</p>
+
+
+    <p>
+        <label for="primeiro">Primeiro termo: </label> <br>
+        <input type="number" id = "primeiro"><br><br>
+
+        <label for="razao">Razão: </label><br>
+        <input type="number" id = "razao"><br> <br>
+
+        <label for="quantidade">Quantidade de termos: </label> <br>
+        <input type="number" id = "quantidade"><br><br>       
+
+        <input type="button" id="btngerar" value="Gerar PA" onclick="gerarPA()">
+
+        <div id="resultadoPA"> </div>
+    </p>
+
+</body>
+</html>
