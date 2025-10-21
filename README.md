@@ -1,2 +1,28 @@
 # DOM
-DOM e Formulários
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Índice de Exercícios</title>
+</head>
+<body>
+    <h1>Lista de Exercícios</h1>
+    <nav>
+        <ul>
+            <li><a href="ex00.html">Exercício 0 - DOM e Formulários (Somar, Subtrair, Multiplicar, Dividir)</a></li>
+            <li><a href="ex001.html">Exercício 1 - Conversor de Dólar para Real</a></li>
+            <li><a href="ex002.html">Exercício 2 - Calculadora de IMC</a></li>
+            <li><a href="ex03.html">Exercício 3 - Login e Senha</a></li>
+            <li><a href="ex04.html">Exercício 4 - Progressão Aritmética (PA)</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    </form>
+</body>
+</html>
+
+
