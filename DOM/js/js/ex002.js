@@ -9,13 +9,13 @@ function calcularIMC() {
     document.getElementById("resultado").innerHTML = `Seu IMC é: ${imc}`
 
     if (imc < 18.5) {
-        document.getElementById("cor").innerHTML += 
-    } else if (imc >= 18.5 && imc < 25) {
-        document.getElementById("cor").innerHTML += 
-    } else if (imc >= 25 && imc < 30) {
-        document.getElementById("cor").innerHTML += 
+        document.getElementById("resultado").className = "abaixo-peso"
+    } else if (imc >= 18.5 && imc < 24.9) {
+        document.getElementById("resultado").className = "peso-normal"
+    } else if (imc >= 25 && imc < 29.9) {
+        document.getElementById("resultado").className = "sobrepeso"
     } else {
-        document.getElementById("cor").innerHTML += 
-    }
+        document.getElementById("resultado").className = "obesidade"
+    }   
 
 }
